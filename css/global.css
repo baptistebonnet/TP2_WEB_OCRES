@@ -136,7 +136,7 @@ input.search {
     background: url("../img/icon/search.png") #ebeff1 no-repeat 8px;
     box-shadow: none;
     height: 28px;
-    width: 100%;
+    width: 75%;
     font-size: 1em;
     padding: 3px 6px 3px 25px;
     border: 1px solid #d0dde9;
@@ -218,19 +218,11 @@ nav a.history { background: url("../img/icon/history.png") no-repeat 0px; }
 
 .features{width: 33%}
 
-@media screen and (max-width: 768px){
-    .features{width: 100%}
-}
 
-@media screen and (max-width: 992px){
-    .features{width: 50%}
-}
-
-@media only screen
-and (min-device-width: 768px)
-and (max-device-width: 1024px)
-and (orientation: portrait){
-    .sidebar{width: 100%}
+@media screen and (max-width: 750px){
+    form {
+        display: none;
+    }
 }
 
 

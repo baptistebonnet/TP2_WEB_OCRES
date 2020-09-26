@@ -19,24 +19,30 @@
 	<body>
 		<div class="container">
 			<header>
-				<div class="wrapper">
-					<div class="logo-search">
-						<img class="pull-left" src="img/logo.png" />
+				<div class="wrapper row">
+					<div class="col-lg-2 col-md-2 col-sm-2 col-6">
+						<div class="logo-search">
+							<img class="pull-left" src="img/logo.png" />
+						</div>
 					</div>
 
-					<form method="POST" action="index.html">
-						<input type="search" required class="search">
-						<input type="submit" name="submit" value="Rechercher" class="submit">
-					</form>
-					<div class="user dropdown">
-						<a class="btn btn-light dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-					    Luke Chesser
-						</a>
+					<div class="col-lg-8 col-md-8 col-sm-8 d-none d-sm-block">
+						<form method="POST" action="index.html">
+							<input type="search" required class="search">
+							<input type="submit" name="submit" value="Rechercher" class="submit">
+						</form>
+					</div>
+					<div class="col-lg-2 col-md-2 col-sm-2 col-6">
+						<div class="user dropdown">
+							<a class="btn btn-light dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+						    Luke Chesser
+							</a>
 
-						<div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-					    <a class="dropdown-item" href="#">Edit my profile</a>
-					    <a class="dropdown-item" href="#">Logout</a>
-  						</div>
+							<div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+						    <a class="dropdown-item" href="#">Edit my profile</a>
+						    <a class="dropdown-item" href="#">Logout</a>
+	  						</div>
+						</div>
 					</div>
 				</div>
 			</header>
