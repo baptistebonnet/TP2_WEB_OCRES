@@ -168,6 +168,10 @@ input.submit {
     background-image: url("../img/icon/station-white.png");
 }
 
+.droite
+{
+    text-align: right;
+}
 
 #albums article {
     font-size: 0.75em;
@@ -222,6 +226,19 @@ nav a.history { background: url("../img/icon/history.png") no-repeat 0px; }
 @media screen and (max-width: 750px){
     form {
         display: none;
+    }
+}
+
+@media screen and (max-width: 450px){
+    .share {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 992px){
+    .droite-bis{
+        display: flex;
+        justify-content: flex-end;
     }
 }
 
