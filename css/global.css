@@ -220,8 +220,6 @@ nav a.new { background: url("../img/icon/new.png") no-repeat 0px; }
 nav a.collection { background: url("../img/icon/collection.png") no-repeat 0px; }
 nav a.history { background: url("../img/icon/history.png") no-repeat 0px; }
 
-.features{width: 33%}
-
 
 @media screen and (max-width: 750px){
     form {
@@ -239,6 +237,24 @@ nav a.history { background: url("../img/icon/history.png") no-repeat 0px; }
     .droite-bis{
         display: flex;
         justify-content: flex-end;
+    }
+}
+
+@media screen and (min-width: 1400px){
+    body {
+        font-size: x-large;
+    }
+}
+
+@media screen and (min-width: 600px){
+    body {
+        font-size: x-small;
+    }
+}
+
+@media screen and (min-width: 450px){
+    body {
+        font-size: xx-small;
     }
 }
 
